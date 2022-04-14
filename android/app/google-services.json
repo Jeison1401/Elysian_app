@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "269986946193",
+    "project_id": "elysian-project-4fccc",
+    "storage_bucket": "elysian-project-4fccc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269986946193:android:c8abd6ce5d15da8b7c3330",
+        "android_client_info": {
+          "package_name": "com.example.elysian_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269986946193-enmn9aajsjgb70icd7jcdaqrdkk2cu3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elysian_app",
+            "certificate_hash": "101214a5ce30e0070d96117a322575f69a7f6be9"
+          }
+        },
+        {
+          "client_id": "269986946193-q6k2mccjovissppghlki54d6psc9ivpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiukVBPVYmYAoogwsG_YWwrA42IALuC4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269986946193-q6k2mccjovissppghlki54d6psc9ivpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
