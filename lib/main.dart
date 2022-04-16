@@ -1,10 +1,16 @@
+import 'package:elysian_app/constants/firebase.dart';
+import 'package:elysian_app/controller/product_controller.dart';
 import 'package:elysian_app/ui/signin_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await initialization.then((value) {
+    Get.put(ProductsController());
+    Firebase.initializeApp();
+  });
   runApp(const MyApp());
 }
 

@@ -1,3 +1,4 @@
+import 'package:elysian_app/utils/products.dart';
 import 'package:flutter/material.dart';
 
 class StoreScreen extends StatefulWidget {
@@ -10,11 +11,11 @@ class StoreScreen extends StatefulWidget {
 class _StoreScreenState extends State<StoreScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.white,
-      body: Center(
-        child: Text("Store"),
-      ),
-    );
+    return Scaffold(
+        backgroundColor: Colors.white,
+        body: Container(
+          color: Colors.white30,
+          child: const ProductsWidget(),
+        ));
   }
 }

@@ -18,8 +18,8 @@ class _HomeScreenState extends State<HomeScreen> {
   int index = 2;
   final screens = [
     FavoritesScreen(),
-    SearchScreen(),
     StoreScreen(),
+    SearchScreen(),
     SettingScreen(),
     ProfileScreen()
   ];
